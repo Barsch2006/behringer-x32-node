@@ -1,0 +1,25 @@
+{
+  "name": "x32_node",
+  "version": "1.0.0",
+  "description": "typescript/node.js lib for behringer's X32",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "osc-min": "^1.1.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.22",
+    "prettier": "^3.2.5"
+  }
+}
