@@ -22,7 +22,7 @@ import { X32 } from 'x32-node';
 
 ## Implementated Commands
 
-| TS Method | OSC Command |
+| Implemantation | OSC Command |
 | --- | --- |
 | `X32Console.load`| `/load` |
 | `X32Console.save`| `/save` |
