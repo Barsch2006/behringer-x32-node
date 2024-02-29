@@ -19,3 +19,20 @@ Import in typescript
 ```typescript
 import { X32 } from 'x32-node';
 ```
+
+## Implementated Commands
+
+| TS Method | OSC Command |
+| --- | --- |
+| `X32Console.load`| `/load` |
+| `X32Console.save`| `/save` |
+| `X32Console.delete`| `/delete` |
+| `X32Console.copy`| `/copy` |
+| `X32Console.rename`| `/rename` |
+| `X32Console.loadScene `| `/-action/goscene` |
+| `X32Console.lock` <br> `X32Console.setLock` <br> `X32Console.unlock`| `/-stat/lock` |
+| `X32Console.setSendsOnFader`| `/-stat/sendsonfader` |
+| `X32Console.setLeftFaderBank` | `/-stat/chfaderbank` |
+| `X32Console.setRightFaderBank` | `/-stat/grpfaderbank` |
+| `X32Console.clearSolo` | `/-stat/clearsolo` |
+| `X32Console.setTalkback` | `/config/talk/enable` <br> `/config/talk/A/dim` <br> `/config/talk/A/latch` <br> `/config/talk/A/level` <br> `/config/talk/B/dim` <br> `/config/talk/B/latch` <br> `/config/talk/B/level` |

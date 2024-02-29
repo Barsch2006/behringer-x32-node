@@ -7,7 +7,7 @@ import {
     X32SocketErrorHandlerFunction,
 } from "./types/handler";
 
-import X32Console from "./Console";
+import X32Console from "./X32Console";
 
 type X32ConnectionConfig = {
     host: string;
